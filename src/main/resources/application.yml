@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:h2:mem:testdb #???testdb??????????
+    url: jdbc:h2:mem:testdb #今回はtestdbというスキーマにした
     driverClassName: org.h2.Driver
 
   h2:
