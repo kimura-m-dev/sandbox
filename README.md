@@ -7,3 +7,6 @@
 - アプリケーション（Spring Boot）の起動
   - GradleよりbootRunを実行する
     - Gradleタブ > sandbox(プロジェクト名) > Tasks > application > bootRun
+
+- ※ Dockerを止めるとき
+docker-compose -f ./docker/docker-compose.yml stop
